@@ -1,0 +1,82 @@
+/* sm */
+@media screen and (min-width: 640px) {}
+
+/* md */
+@media screen and (min-width: 768px) {
+    .dropdown-menu {
+        position: absolute;
+        left: 50% !important;
+        transform: translateX(-50%);
+        top: 100%;
+        min-width: 1180px;
+        padding: 1.5rem;
+    }
+
+
+    .secspan {
+        font-size: 3rem;
+    }
+
+
+
+    /* Hero Section */
+    .hero-content h1 {
+        font-size: 3.75rem;
+    }
+
+    .hero-content p {
+        font-size: 1.25rem;
+
+    }
+
+    .secspan2 {
+        font-size: 3rem;
+    }
+
+
+    #testimonials p {
+        font-size: 1.25rem;
+    }
+
+    .form2-inner {
+        padding: 2.5rem;
+    }
+
+
+
+
+}
+
+/* lg */
+@media screen and (min-width: 1024px) {
+    .item1 {
+        margin-inline: 12rem;
+    }
+
+    #carouselExampleRide {
+        margin-inline: 2.5rem;
+    }
+
+    .accord {
+        margin-inline: 340px;
+    }
+
+
+    .marg-last {
+        margin-inline: 104px;
+    }
+
+
+}
+
+/* xl */
+@media screen and (min-width: 1280px) {
+    /* ---------- */
+
+    .title p {
+        margin-inline: 31.5rem;
+    }
+}
+
+/* xxl */
+@media screen and (min-width: 1536px) {}
